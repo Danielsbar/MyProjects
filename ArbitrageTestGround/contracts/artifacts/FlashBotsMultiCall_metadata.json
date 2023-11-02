@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_executor",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "call",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_wethAmountToFirstMarket",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ethAmountToCoinbase",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "_targets",
+						"type": "address[]"
+					},
+					{
+						"internalType": "bytes[]",
+						"name": "_payloads",
+						"type": "bytes[]"
+					}
+				],
+				"name": "uniswapWeth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BundleExecutor.sol": "FlashBotsMultiCall"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BundleExecutor.sol": {
+			"keccak256": "0xdd636010af193a6dea5374e7432264b3c88ce40d80c18958236b123a6b47f52a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://2e6ed04a6be67642688b58590be0c458ca7f55ef66256e5151bfab17a1cc13d9",
+				"dweb:/ipfs/QmTfsbB4cQarNdMHb4hyeFQh7P3B3FPTX9CAHfxwEZkb1z"
+			]
+		}
+	},
+	"version": 1
+}

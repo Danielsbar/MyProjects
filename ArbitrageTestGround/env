@@ -1,0 +1,12 @@
+PRIVATE_KEY = ""
+BUNDLE_EXECUTOR_ADDRESS = ""
+ETHEREUM_RPC_URL ="https://tiniest-light-night.matic.quiknode.pro/be02bac7345119bf2524c51f72422cec6255ff01/"
+FLASHBOTS_SECRET = ""
+HEALTHCHECK_URL = "https://healthcheck.flashbots.net"
+FLASHBOTS_RPC_URL="https://tiniest-light-night.matic.quiknode.pro/be02bac7345119bf2524c51f72422cec6255ff01/"
+FLASHBOTS_KEY_ID = "";
+
+```
+
+# ARBITRUM=https://black-old-asphalt.arbitrum-mainnet.quiknode.pro/a167c47e98098d9fd9cf7a9387a6309795234bd3/
+# ARBITRUM_WSS=wss://black-old-asphalt.arbitrum-mainnet.quiknode.pro/a167c47e98098d9fd9cf7a9387a6309795234bd3/
